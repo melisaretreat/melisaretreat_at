@@ -31,7 +31,7 @@
 
 <footer class="footer layout__footer">
     <a rel="noopener noreferrer" href='{{ T "fb_page" }}'>
-        <img src="/image/fb.png" class="social-link" />
+        <img src="/images/fb.png" class="social-link" />
     </a>
 {{ if $.Param "feedlinks" }}{{ partial "feedlinks.html" . }}{{ end -}}
 <p>{{ with $.Param "copyright" }}{{ . | markdownify }}{{ else }}<span>© 2020-2022{{ .Site.Title }}</span>{{ end }}</p>

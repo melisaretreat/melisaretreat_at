@@ -28,3 +28,9 @@ module:
     min: 0.56.0
   imports:
   - path: github.com/frjo/hugo-theme-zen
+
+frontmatter:
+  lastMod:
+  - :git
+
+enableGitInfo: true

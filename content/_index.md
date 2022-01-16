@@ -4,10 +4,10 @@ Date: 2022-01-16
 menu:
   main:
     weight:
-      30
+      10
 ---
 
-![Stack of rocks on a beach](/image/rocks.jpg)
+![Stack of rocks on a beach](/images/rocks.jpg)
 
 Melisa Retreat  
 Yoga & Meditations Studio  
