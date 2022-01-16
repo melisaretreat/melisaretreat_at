@@ -3,8 +3,8 @@ title: "Über uns"
 Date: 2020-04-17T16:47:50+02:00
 LastMod: 2021-05-31T11:20:00+02:00
 menu:
-    main:
-        weight: 30
+  main:
+    weight: 30
 ---
 
 # Isabella
@@ -27,19 +27,3 @@ Besonders am Herzen liegt mir das [Projekt Ruanda](https://www.projekt-ruanda-er
 # Raphael {#rafal}
 
 Ich habe Kum Nye Yoga in Dzogchen Beara gelernt und meine Meditationspraxis in Jampa Ling vertieft.
-
-# Unterstütze uns mit einer Spende
-
-##### Überweisung in Euro (SEPA)
-
-> Rafal Krupinski
->
-> IBAN: PL79114020040000341212805265
->
-> BIC: BREXPLPWMBK
->
-> Vermerk: Spende
-
-##### Kreditkarte
-
-{{< ko-fi >}}

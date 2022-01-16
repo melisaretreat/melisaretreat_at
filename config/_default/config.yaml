@@ -1,40 +1,30 @@
-baseURL: "https://melisa.org.pl/"
-languageCode: "pl-PL"
+baseURL: "https://melisaretreat.at/"
+languageCode: "de-AT"
 title: "Melisa Retreat"
-theme: "zen"
 disableKinds:
 - taxonomy
 - terms
 taxonomy:
-    category:
-        - categories
-    tag:
-        - tags
+  category:
+    - categories
+  tag:
+    - tags
 ignoreErrors:
-    - error-disable-taxonomy
+  - error-disable-taxonomy
 
 params:
-    feedlinks: false
-    podcast:
-        image: image/isabella_Relaxation.jpg
-    searchform: true
-    logo: false
-    mobileMenu: true
-    sidebar: false
+  feedlinks: false
+  logo: false
+  mobileMenu: true
+  sidebar: false
+  mainSections:
+  - events
+  dateformat: 2006-01-02
 
-languages:
-    en:
-        weight: 3
-        languageName: "English"
-        languageCode: "en-GB"
-    de:
-        weight: 2
-        languageName: "Deutsch"
-        languageCode: "de-AT"
-    pl:
-        weight: 1
-        languageName: "Polski"
-        title: "Melisa"
+DefaultContentLanguage: de
 
-DefaultContentLanguage: pl
-defaultContentLanguageInSubdir: true
+module:
+  hugoVersions:
+    min: 0.56.0
+  imports:
+  - path: github.com/frjo/hugo-theme-zen
