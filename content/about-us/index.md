@@ -1,7 +1,6 @@
 ---
 title: "Über uns"
 Date: 2020-04-17T16:47:50+02:00
-LastMod: 2021-05-31T11:20:00+02:00
 menu:
   main:
     weight: 30

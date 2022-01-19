@@ -1,7 +1,6 @@
 ---
 title: "Kontakt"
 date: 2021-04-05
-LastMod: 2022-01-16
 menu:
   main:
     weight: 40
