@@ -1,0 +1,4 @@
+<p class="content-dates">
+{{ with .Lastmod }}{{ i18n "last_mod" }} {{ .Format ($.Param "dateformat" | default "2 January, 2006") }}<br>{{ end }}
+{{ i18n "created" }} {{ .Date.Format ($.Param "dateformat" | default "2 January, 2006") }}
+</p>
