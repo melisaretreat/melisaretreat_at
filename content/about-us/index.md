@@ -8,7 +8,9 @@ menu:
 
 # Isabella
 
-![Woman in a yoga pose](/images/yoga_pose.jpg)Über meine Yogapraxis, die ich mit 19 Jahren begonnen habe, ist mir auch das Meditieren nahe gebracht worden. Verschiedene Lehrer und Einflüße haben meinen Weg seitdem begleitet.
+![Woman in a yoga pose](/images/yoga_pose.jpg)
+
+Über meine Yogapraxis, die ich mit 19 Jahren begonnen habe, ist mir auch das Meditieren nahe gebracht worden. Verschiedene Lehrer und Einflüße haben meinen Weg seitdem begleitet.
 
 [Mein erstes Yogastudio](http://www.pranayoga.at) habe ich in Wien besucht und kann es immer noch sehr empfehlen.
 
