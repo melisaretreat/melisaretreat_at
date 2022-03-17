@@ -1,9 +1,9 @@
 ---
 title: Meditationsgruppe
-eventDate: 2022-03-16
+eventDate: 2022-04-19
 ---
 
-Mittwoch, 16.3.2022  
+Mittwoch, 19.4.2022  
 18 Uhr bis 18.30 Uhr  
 
 Das Angebot ist kostenlos.
