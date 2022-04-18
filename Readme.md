@@ -21,7 +21,7 @@ when done: control+C
 ## building the website
 
 kopiere diesen link:
-hugo --cleanDestinationDir -d ../melisa.org.pl --gc --i18n-warnings  --path-warnings
+hugo --cleanDestinationDir -d ../melisa.org.pl --gc --printI18nWarnings  --printPathWarnings
 
 klicke gruenes hackerl oben in Leiste
 
