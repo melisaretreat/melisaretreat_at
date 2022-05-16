@@ -1,7 +1,6 @@
 ---
-title: Yoga: einfühlsam und sanft zur Mitte
+title: 'Yoga: einfühlsam und sanft zur Mitte'
 eventDate: 2022-06-21
- 
 ---
 Dienstag, 21.6.2022  
 18 Uhr bis 19 Uhr  

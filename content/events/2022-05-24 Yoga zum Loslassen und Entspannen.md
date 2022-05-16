@@ -1,7 +1,6 @@
 ---
 title: Yoga zum Loslassen und Entspannen
 eventDate: 2022-05-24
- 
 ---
 Dienstag, 24.5.2022  
 18 Uhr bis 19 Uhr  
