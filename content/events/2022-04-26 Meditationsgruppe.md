@@ -1,12 +1,14 @@
 ---
 title: Meditationsgruppe
-eventDate: 2022-04-26
+eventDate: 2022-06-07
 ---
 
-Dienstag, 26.4.2022  
+Dienstag, 7.6.2022  
 18 Uhr bis 18.30 Uhr  
 
-Das Angebot ist kostenlos.
 
-Einführung in die Meditation, Sitzhaltung und Atemtechnik. Es wird Gelegenheit zum Erfahrungsaustausch, Fragen und Antworten geben.  
-Bitte bequeme Kleidung tragen (wie Jogging Hose oder Leggings), warme Socken und Pullover.  
+
+Meditation bietet eine wunderbare Möglichkeit Körper und Geist zur Ruhe zu bringen. Stressiger Alltag, mediale Überflutung und viele andere Einflüsse lassen den Kopf oft wie einen Bienenschwarm brummen. Achtsamkeitsübungen und erlernbare Konzentration helfen den Atem fließen zu lassen und Einklang mit sich selbst zu finden. 
+In dieser Einheit erforschen wir die Welt der Geh-Meditation. Die Meditationsgruppe ist ohne religiösen Hintergrund erlebar, für alle Altergruppen gedacht und keine Vorkenntnisse oder besondere Fähigkeiten notwendig. 
+Bitte bequeme Kleidung tragen. 
+Das Angebot ist kostenlos.

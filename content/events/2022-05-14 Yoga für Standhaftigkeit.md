@@ -1,15 +1,14 @@
 ---
-title: Yoga für Standhaftigkeit – Stehpositionen im Yoga
-eventDate: 2022-05-14
+title: Yoga: einfühlsam und sanft zur Mitte
+eventDate: 2022-06-21
  
 ---
-Samstag, 14.5.2022  
-9 Uhr bis 10 Uhr  
+Dienstag, 21.6.2022  
+18 Uhr bis 19 Uhr  
 
 € 5,-  
 
-Selten wird unseren Füßen und Beinen die Aufmerksamkeit zuteil, die ihnen zusteht. In dieser Stunde erkunden wir wie Fußsohlen die Erde küssen und unsere Beine uns durchs Leben tragen. Geeignet für alle Altergruppen und Fitnesslevel, ebenso für AnfängerInnen und Yoga Erfahrene.  
-
+In unserer sich schnell veränderenden Zeit ist es wichtig, Fixpunkte zu finden. Für mich ist Yoga ein Anker, ein Fels in der Brandung. Meine Begeisterung teile ich gerne mit allen, die Yoga für sich entdecken möchten. Einstieg ist jederzeit möglich, keine Vorkenntnisse oder Flexibilität notwendig. Jeder Mensch kann etwas für sich in diesem ganzheitlichen Programm finden, den Yoga ist nicht nur dehnen oder strecken. Eine Stunde bietet die Möglichkeit diverse Übungen zu erkunden, den Atem zu beobachten und viele Ideen für das Üben daheim mitzunehmen.
 Bitte lockere Kleidung tragen (wie Leggings oder Jogginghose) und warme Socken mitnehmen. Falls
 vorhanden eine Yoga oder Gymnastikmatte sowie eine Decke mitnehmen.  
 
