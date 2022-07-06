@@ -1,9 +1,9 @@
 ---
 title: Meditationsgruppe
-eventDate: 2022-06-07
+eventDate: 2022-07-21
 ---
 
-Dienstag, 7.6.2022  
+Dienstag, 21.7.2022  
 18 Uhr bis 18.30 Uhr  
 
 
