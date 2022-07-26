@@ -1,9 +1,9 @@
 ---
 title: 'Yoga: einfühlsam und sanft zur Mitte'
-eventDate: 2022-07-05
+eventDate: 2022-08-03
 ---
-Dienstag, 5.7.2022  
 Mittwoch, 3.8.2022  
+Donnerstag, 18.8.2022  
 18 Uhr bis 19 Uhr  
 
 € 5,-  
