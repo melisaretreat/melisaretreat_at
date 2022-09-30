@@ -3,7 +3,7 @@ title: Meditationsgruppe
 eventDate: 2022-09-15
 ---
 
-Donnerstag, 15.9.2022 um 18 Uhr  
+Dienstag, 11.10.2022 um 18 Uhr  
 
 Meditation bietet eine wunderbare Möglichkeit Körper und Geist zur Ruhe zu bringen.
 Stressiger Alltag, mediale Überflutung und viele andere Einflüsse lassen den Kopf oft wie einen Bienenschwarm brummen.
