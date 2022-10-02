@@ -4,7 +4,7 @@ eventDate: 2022-10-07
 ---
 Freitag, 7.10.2022 um 19 Uhr  
 Mittwoch, 19.10.2022 um 19 Uhr  
-Mittwoch, 2.10.2022 um 19 Uhr  
+Mittwoch, 2.11.2022 um 19 Uhr  
 
 € 5,-  
 
