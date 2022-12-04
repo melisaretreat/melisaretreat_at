@@ -1,11 +1,7 @@
 ---
-title: 'Yoga: einfühlsam und sanft zur Mitte'
-eventDate: 2022-11-02
+title: Yogastunde
 ---
-Mittwoch, 2. November 2022 um 19 Uhr  
-Donnerstag, 17. November 2022 um 18 Uhr  
-Samstag, 26. November 2022 um 9 Uhr  
-Freitag, 2. Dezember 2022 um 18 Uhr  
+Jeden Mittwoch um 18 Uhr
 
 € 5,-  
 
