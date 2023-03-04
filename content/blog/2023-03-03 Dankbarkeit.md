@@ -1,9 +1,7 @@
 ---
-title: Dankbarkeit
+title: Das Geschenk der Dankbarkeit
 date: 2023-03-03
 ---
-# Das Geschenk der Dankbarkeit
-
 Im tibetischen Buddhismus gibt es die schöne Geschichte über einen Lama, der jeden Morgen aufgewacht ist mit dem Gedanken: „Wie schön, ein neuer Morgen und ich atme noch.“ Jeden Tag aufs neue hat dieser Mann sich darüber gefreut, die Nacht überlebt zu haben und einen weiteren Tag gewonnen zu haben.
 
 Wie würde unser Leben sich verändern, wenn wir mit dieser Motivation bereits den Tag beginnen?! Bereits die frühen Stunden nahm ich gerne zum Anlaß, mir schlechte Laune zuzulegen, den es war ein weiterer Arbeitstag oder sonst etwas lag an, dass ich nicht gerne machen wollte. Aber gemacht werden musste, also aufstehen und durch beißen. So viele Wochen, Monate und Jahre habe ich damit vergeudet mir einzureden, ich bin arm dran und alles wird mir zu viel. Ich habe somit den neuen Tag nicht als Geschenk gesehen, sondern als Bürde.

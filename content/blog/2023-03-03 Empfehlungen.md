@@ -1,9 +1,7 @@
 ---
-title: Empfehlungen
+title: Empfehlungen zum Daheim üben, lesen und lernen
 date: 2023-03-03
 ---
-# Empfehlungen zum Daheim üben, lesen und lernen
-
 ### Seine Heiligkeit der Dalai Lama  
 Buchempfehlung  
 Die Regeln des Glücks  
