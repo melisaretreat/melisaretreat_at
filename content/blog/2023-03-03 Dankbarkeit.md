@@ -1,0 +1,13 @@
+---
+title: Dankbarkeit
+date: 2023-03-03
+---
+Das Geschenk der Dankbarkeit
+
+Im tibetischen Buddhismus gibt es die schöne Geschichte über einen Lama, der jeden Morgen aufgewacht ist mit dem Gedanken: „Wie schön, ein neuer Morgen und ich atme noch.“ Jeden Tag aufs neue hat dieser Mann sich darüber gefreut, die Nacht überlebt zu haben und einen weiteren Tag gewonnen zu haben.
+
+Wie würde unser Leben sich verändern, wenn wir mit dieser Motivation bereits den Tag beginnen?! Bereits die frühen Stunden nahm ich gerne zum Anlaß, mir schlechte Laune zuzulegen, den es war ein weiterer Arbeitstag oder sonst etwas lag an, dass ich nicht gerne machen wollte. Aber gemacht werden musste, also aufstehen und durch beißen. So viele Wochen, Monate und Jahre habe ich damit vergeudet mir einzureden, ich bin arm dran und alles wird mir zu viel. Ich habe somit den neuen Tag nicht als Geschenk gesehen, sondern als Bürde.
+
+Durch analytische Meditation und Achtsamkeit im Alltag habe ich mit der Zeit gelernt, dass es nicht selbstverständlich ist, wie gut es mir eigentlich geht. Ich habe angefangen, Kleinigkeiten nicht mehr als gegeben anzunehmen, sondern wahr zu nehmen, wie dankbar ich eigentlich dafür sein kann. Aus dem Kleinen ist dann der Blick zum Detail gekommen und mir ist klar geworden wie viel ich eigentlich als selbstverständlich angenommen habe.
+
+Angefangen bei den Menschen in meiner Umgebung: meine Familie und ArbeitskollegInnen haben mir immer Freundlichkeit und Unterstützung zukommen lassen. Das haben viele Menschen auf dieser Welt nicht, aus welchem Grund auch immer. Genauso meine Lebenssituation: ich habe immer eine beheizte Wohnung, genügend zu Essen und Trinkwasser zur Verfügung gehabt, genauso wie Kleidung und Schuhe. Die meisten Menschen auf dieser Welt, auch in Europa, können nicht immer davon ausgehen. Ebenfalls die Gesellschaft in der ich lebe: das Sozialsystem hilft mir bei Krankheiten und Unfällen, bei Arbeitslosigkeit und ich habe auch Meinungsfreiheit und darf jede anerkannte Religion ausüben. Die meisten Länder dieser Welt bieten das nicht. Todesstrafe, Gesetze gegen LGBTQ, Frauendiskriminierung und Kinderarbeit sind normal in vielen Ländern. Früher hat mich diese Ungerechtigkeit verzweifelt und ich habe mich machtlos gefühlt. Heute kann ich immer noch nicht die Welt so verändern, dass es allen gut geht. Aber meine Absicht jeden Tag ist, die Welt um mich herum zu einem besseren Ort zu machen. Das fängt damit an, jeden Morgen zu begrüßen und mir vor zu nehmen, alle fühlenden Wesen um mich herum mit Respekt zu behandeln. Und dankbar zu sein, für alles was mir geben wird.
