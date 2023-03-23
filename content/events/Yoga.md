@@ -3,7 +3,7 @@ title: Yogastunde
 ---
 Jeden Mittwoch um 18 Uhr
 
-keine Stunde am 22.2. und 15.3.2023
+keine Stunde am 29.3.2023
 
 € 5,-  
 

@@ -3,7 +3,8 @@ title: Meditationsstunde
 eventDate: 2023-01-26
 ---
 
-Donnerstag, 23. März 2023 um 18 Uhr
+Donnerstag, 13. April 2023 um 18 Uhr  
+Donnerstag, 27. April 2023 um 18 Uhr
 
 Meditation bietet eine wunderbare Möglichkeit Körper und Geist zur Ruhe zu bringen.
 Stressiger Alltag, mediale Überflutung und viele andere Einflüsse lassen den Kopf oft wie einen Bienenschwarm brummen.
