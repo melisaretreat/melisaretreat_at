@@ -3,7 +3,7 @@ import type {GatsbyConfig} from "gatsby";
 const config: GatsbyConfig = {
     siteMetadata: {
         title: `melisaretrat3`,
-        siteUrl: `https://melisaretreat.at`
+        siteUrl: `http://localhost:8000/`
     },
     // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
     // If you use VSCode you can also use the GraphQL plugin
@@ -16,7 +16,7 @@ const config: GatsbyConfig = {
         {
             resolve: 'gatsby-plugin-manifest',
             options: {
-                "icon": "src/images/icon.png"
+                "icon": "./src/images/icon.png"
             }
         },
         "gatsby-plugin-mdx",
@@ -37,14 +37,33 @@ const config: GatsbyConfig = {
             },
             __key: "pages"
         },
-      {
-        resolve: `gatsby-source-filesystem`,
-        options: {
-          name: 'posts',
-          path: './content/blog',
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: 'posts',
+                path: './src/content/',
+            },
+            __key: 'posts'
         },
-      },
-        ]
+        {
+            resolve: 'gatsby-plugin-mdx',
+/*
+            options: {
+                name: `pages`,
+                path: `./content`,
+            }
+*/
+        },
+                {
+                    resolve: `gatsby-plugin-page-creator`,
+                    options: {
+                        path: `${__dirname}/content/pages`,
+                    },
+                },
+    ],
+    flags: {
+        PARTIAL_HYDRATION: true,
+    }
 };
 
 export default config;
