@@ -1,66 +1,56 @@
-import {CreateNodeArgs, CreatePageArgs, CreateSchemaCustomizationArgs} from "gatsby";
-import SitePage = Queries.SitePage;
-import {randomUUID} from "crypto";
-import {getNode} from "gatsby/dist/datastore";
+import {CreateNodeArgs, CreatePageArgs, CreateSchemaCustomizationArgs, NodeInput} from "gatsby";
 
-let nodeIndex = 0;
 
-function onNodeMsx({node, actions, reporter}: CreateNodeArgs) {
-    reporter.log(`onNodeMsx ${JSON.stringify(node, null, 2)}`)
+function slugify(tet: string): string {
+    return tet.replace(/\s+/g, '-').toLowerCase();
+}
 
-    /*
-        actions.createNodeField({
-            node,
-            name: `slug`,
-            value: `slug-${nodeIndex++}`
-        })
-    */
+function mkBlogEntryNode(args: CreateNodeArgs): void {
+    const {getNode, node, createNodeId, reporter} = args;
+    const {createNode, createParentChildLink} = args.actions;
+
+    const fileNode = getNode(node.parent!)! as unknown as Queries.File;
+    if (!fileNode.relativePath.startsWith('blog/'))
+        return;
+
+    const blogEntry: NodeInput = {
+        id: createNodeId(fileNode.relativePath),
+        sitePagePath: slugify(`${fileNode.name}`),
+        parent: node.id,
+        internal: {
+            type: 'BlogEntry',
+            contentDigest: node.internal.contentDigest,
+            contentFilePath: fileNode.relativePath
+        },
+    }
+    createNode(blogEntry);
+    createParentChildLink({parent: node, child: blogEntry})
+    reporter.success(`mkBlogEntryNode ${fileNode.relativePath} -> BlogEntry ${blogEntry.id}`)
 }
 
 function onNodeSitePage(args: CreatePageArgs) {
-    const page = args.page as SitePage & { context: { id?: string } };
-    args.reporter.log(`onNodeSitePage ${JSON.stringify(page, null, 2)}`)
-    if (page.path.startsWith('/blog/') && page.context.id) {
-        const nodeId = page.context.id;
-
-
-        const node = getNode(nodeId)!;
-        let blogEntry = {
-            id: randomUUID(),
-            internal: {
-                type: 'BlogEntry',
-                contentDigest: node.internal.contentDigest!,
-            },
-            parent: nodeId,
-            sitePagePath: page.path,
-        };
-        args.reporter.log(`createNode ${JSON.stringify(blogEntry, null, 2)}`)
-        args.actions.createNode(blogEntry);
-        args.actions.createParentChildLink({parent: node, child: blogEntry});
-    }
+    const {reporter} = args;
+    const page = args.page as Queries.SitePage & { context: { id?: string } };
+    reporter.info(`onNodeSitePage ${page.path}`)
 }
 
 export function onCreateNode(args: CreateNodeArgs) {
     switch (args.node.internal.type) {
         case 'Mdx':
-            onNodeMsx(args);
-            break
+            mkBlogEntryNode(args);
+            break;
+        case 'MarkdownRemark':
+            mkBlogEntryNode(args);
+            break;
     }
 }
 
 export function onCreatePage(args: CreatePageArgs) {
     onNodeSitePage(args);
-
 }
 
 export function createSchemaCustomization({actions, schema}: CreateSchemaCustomizationArgs) {
     actions.createTypes([
-        schema.buildObjectType({
-            name: "MdxFields",
-            fields: {
-                slug: 'String!'
-            },
-        }),
         schema.buildObjectType({
             name: "BlogEntry",
             fields: {
@@ -74,12 +64,6 @@ export function createSchemaCustomization({actions, schema}: CreateSchemaCustomi
                 name: 'String!',
                 weight: 'Float!',
             },
-        }),
-        schema.buildObjectType({
-            name: 'MdxFrontmatter',
-            fields: {
-                menu: '[MenuInfo!]',
-            }
         }),
     ]);
 }

@@ -2,8 +2,8 @@ import type {GatsbyConfig} from "gatsby";
 
 const config: GatsbyConfig = {
     siteMetadata: {
-        title: `melisaretrat3`,
-        siteUrl: `http://localhost:8000/`
+        title: 'Melisa Retreat',
+        siteUrl: 'http://localhost:8000/',
     },
     // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
     // If you use VSCode you can also use the GraphQL plugin
@@ -19,7 +19,6 @@ const config: GatsbyConfig = {
                 "icon": "./src/images/icon.png"
             }
         },
-        "gatsby-plugin-mdx",
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp", {
             resolve: 'gatsby-source-filesystem',
@@ -40,26 +39,34 @@ const config: GatsbyConfig = {
         {
             resolve: `gatsby-source-filesystem`,
             options: {
-                name: 'posts',
+                name: 'content',
                 path: './src/content/',
             },
             __key: 'posts'
         },
         {
-            resolve: 'gatsby-plugin-mdx',
-/*
+            resolve: `gatsby-source-filesystem`,
             options: {
-                name: `pages`,
-                path: `./content`,
-            }
-*/
+                name: 'images',
+                path: './src/images/',
+            },
         },
-                {
-                    resolve: `gatsby-plugin-page-creator`,
-                    options: {
-                        path: `${__dirname}/content/pages`,
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            // It's important to specify the maxWidth (in pixels) of
+                            // the content container as this plugin uses this as the
+                            // base for generating different widths of each image.
+                            maxWidth: 1024,
+                        },
                     },
-                },
+                ],
+            },
+        },
     ],
     flags: {
         PARTIAL_HYDRATION: true,
