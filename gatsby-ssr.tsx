@@ -1,5 +1,5 @@
 import "./src/styles/global.css"
-import {PluginOptions, WrapPageElementBrowserArgs} from "gatsby";
+import {PluginOptions, ShouldUpdateScrollArgs, WrapPageElementBrowserArgs} from "gatsby";
 import PageLayout from "./src/components/PageLayout";
 import React from 'react';
 
