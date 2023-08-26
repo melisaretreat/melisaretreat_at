@@ -28,6 +28,35 @@ function mkBlogEntryNode(args: CreateNodeArgs): void {
     reporter.success(`mkBlogEntryNode ${fileNode.relativePath} -> BlogEntry ${blogEntry.id}`)
 }
 
+function mkMenuEntry(args: CreateNodeArgs) {
+    const {getNode, node, createNodeId, reporter} = <CreateNodeArgs & { node: Queries.MarkdownRemark }>args;
+    const {createNode, createParentChildLink} = args.actions;
+
+    const fileNode = getNode(node.parent!)! as unknown as Queries.File;
+
+    node.frontmatter?.menu?.forEach(menuEntryInput => {
+        const menuEntryInput_ = menuEntryInput!;
+        const menuEntry: NodeInput = {
+            id: createNodeId(fileNode.relativePath),
+            sitePagePath: fileNode.name === 'index' ? '/' : `/${slugify(fileNode.name)}/`,
+            parent: node.id,
+            name: menuEntryInput_.name,
+            weight: menuEntryInput_.weight,
+            title: node.frontmatter?.title ?? '',
+            internal: {
+                type: 'MenuEntry',
+                contentDigest: node.internal.contentDigest,
+                contentFilePath: fileNode.relativePath
+            },
+        }
+        createNode(menuEntry);
+        createParentChildLink({parent: node, child: menuEntry})
+        reporter.success(`mkMenuEntryNode ${fileNode.relativePath} -> MenuEntry ${menuEntry.id}`)
+    })
+
+    reporter.info(`mkMenuEntryNode ${fileNode.relativePath}`)
+}
+
 function onNodeSitePage(args: CreatePageArgs) {
     const {reporter} = args;
     const page = args.page as Queries.SitePage & { context: { id?: string } };
@@ -38,9 +67,11 @@ export function onCreateNode(args: CreateNodeArgs) {
     switch (args.node.internal.type) {
         case 'Mdx':
             mkBlogEntryNode(args);
+            mkMenuEntry(args);
             break;
         case 'MarkdownRemark':
             mkBlogEntryNode(args);
+            mkMenuEntry(args);
             break;
     }
 }
@@ -59,11 +90,14 @@ export function createSchemaCustomization({actions, schema}: CreateSchemaCustomi
             interfaces: ['Node']
         }),
         schema.buildObjectType({
-            name: 'MenuInfo',
+            name: 'MenuEntry',
             fields: {
                 name: 'String!',
                 weight: 'Float!',
+                sitePagePath: 'String!',
+                title: 'String!',
             },
+            interfaces: ['Node']
         }),
     ]);
 }

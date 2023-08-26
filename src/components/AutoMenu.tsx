@@ -1,56 +1,35 @@
 import React from "react";
 import {graphql, useStaticQuery} from "gatsby";
 
-interface MenuEntry {
+interface MenuItem {
     title: string
     path: string
-    weight: number
+    key: React.Key
 }
 
-function filePathToUrl(filePath: string): string {
-    const part = filePath.substring(0, filePath.length - 4);
-    return part === 'index' ? '/' : `/${part}`;
+export interface AutoMenuProps extends React.ComponentPropsWithoutRef<React.ElementType> {
+    name: string
+    path: string
+    children: (item: MenuItem) => React.ReactNode
 }
 
-function translate(mdx: Partial<Queries.Mdx>, menu: string): MenuEntry | null {
-    const menuInfo = mdx.frontmatter!.menu!.filter(info => info.name === menu)[0];
-    if (!menuInfo) return null;
-    return {
-        title: mdx.frontmatter!.title!,
-        weight: menuInfo.weight,
-        path: filePathToUrl((mdx.parent! as Queries.File).relativePath),
-    }
-}
-
-export default function AutoMenu({name}: { name: string }): React.ReactNode {
-    const menuItemsResults: Queries.menuItemsQuery = useStaticQuery(graphql`query menuItems {
-        allMdx (filter:{frontmatter:{menu:{elemMatch:{ name:{ne: null}}}}}){
+export default function AutoMenu(props: AutoMenuProps): React.ReactNode {
+    const {name, className, children} = props
+    const data = useStaticQuery(graphql`query menuItems {
+        allMenuEntry(sort:{weight:ASC}) {
             nodes {
                 id
-                frontmatter {
-                    title
-                    menu {
-                        name
-                        weight
-                    }
-                }
-                parent {
-                    ... on File {
-                        relativePath
-                    }
-                }
+                sitePagePath
+                name
+                weight
+                title
             }
         }
     }`);
-    const menuItems = menuItemsResults.allMdx.nodes as Queries.Mdx[];
-    const menuEntries = menuItems.map((item: Queries.Mdx) => translate(item, name)).filter((item: MenuEntry | null) => !!item) as MenuEntry[];
-    menuEntries.sort((a, b) => a.weight - b.weight)
-    return <ol>
-        {menuEntries.map(
-            (item: MenuEntry) => <li key={item.path}>
-                <a href={item.path}>{item.title}</a>
-            </li>
-        )}
-
-    </ol>
+    const menuItems = data.allMenuEntry.nodes as Queries.MenuEntry[];
+    const menuEntries = menuItems.filter((item: Queries.MenuEntry) => item.name === name);
+    menuEntries.sort((a, b) => a.weight - b.weight);
+    return <ul {...props}>
+        {menuEntries.map((item, key) => children({title: item.title, path: item.sitePagePath, key}))}
+    </ul>
 }
