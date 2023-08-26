@@ -1,6 +1,6 @@
-import {graphql, Link, PageProps} from "gatsby";
+import {graphql, Link, useStaticQuery} from "gatsby";
 import React from "react";
-import InnerHTML from "../components/InnerHTML";
+import InnerHTML from "./InnerHTML";
 
 
 interface BlogExcerpt {
@@ -18,32 +18,18 @@ function toBlogExcerpt(entry: Queries.BlogEntry): BlogExcerpt {
     }
 }
 
-export default function BlogPage(props: PageProps): React.ReactNode {
-    const data = props.data as Queries.Query;
-    const blogEntries = data.allBlogEntry.nodes.map(toBlogExcerpt);
-    const content = data.markdownRemark!.html!;
-
-    return <div>
-        <article>
-            <InnerHTML>{content}</InnerHTML>
-        </article>
-        {blogEntries.map((entry, index) => <article key={index}>
-            <h1><Link to={entry.path}>{entry.title}</Link></h1>
-            <p>{entry.excerpt}</p>
-        </article>)}
-    </div>
-}
-
-export const pageQuery = graphql`query blogPosts {
+export default function BlogPage(): React.ReactNode {
+    const data = useStaticQuery(graphql`query blogPosts {
     allBlogEntry {
         nodes {
+            id
             sitePagePath
             internal {
                 contentFilePath
             }
             parent {
                 ... on MarkdownRemark{
-                    excerpt
+                    excerpt(pruneLength: 350)
                     frontmatter{
                         title
                         date
@@ -60,4 +46,17 @@ export const pageQuery = graphql`query blogPosts {
         }
         html
     }
-}`;
+    }`) as Queries.Query;
+    const blogEntries = data.allBlogEntry.nodes.map(toBlogExcerpt);
+    const content = data.markdownRemark!.html!;
+
+    return <div>
+        <InnerHTML as='article' className='prose prose-neutral'>{content}</InnerHTML>
+        <main>
+            {blogEntries.map((entry) => <div key={entry.path}>
+                <h2 className='text-2xl/loose underline'><Link to={entry.path} replace={true}>{entry.title}</Link></h2>
+                <article className='prose prose-neutral max-w-full'>{entry.excerpt}</article>
+            </div>)}
+        </main>
+    </div>
+}
