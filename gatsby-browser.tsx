@@ -1,5 +1,5 @@
 import "./src/styles/global.css"
-import {PluginOptions, WrapPageElementBrowserArgs} from "gatsby";
+import {PluginOptions, ShouldUpdateScrollArgs, WrapPageElementBrowserArgs} from "gatsby";
 import PageLayout from "./src/components/PageLayout";
 import React from 'react';
 
@@ -11,3 +11,8 @@ export function wrapPageElement(
     // including location, data, etc - you don't need to pass it
     return <PageLayout {...args.props}>{args.element}</PageLayout>
 }
+
+export const shouldUpdateScroll = ({ routerProps: { location } }:ShouldUpdateScrollArgs) => {
+  // Return false to disable scroll restoration
+  return false;
+};
