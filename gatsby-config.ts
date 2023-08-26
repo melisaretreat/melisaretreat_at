@@ -17,7 +17,7 @@ const config: GatsbyConfig = {
         {
             resolve: 'gatsby-plugin-manifest',
             options: {
-                "icon": "./src/images/icon.png"
+                "icon": "./src/images/yoga_logo.svg"
             }
         },
         "gatsby-plugin-sharp",
