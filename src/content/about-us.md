@@ -7,6 +7,8 @@ menu:
 
 # Isabella
 
+![Woman in a yoga pose](../images/yoga_pose.jpg)
+
 Über meine Yogapraxis, die ich mit 19 Jahren begonnen habe, ist mir auch das Meditieren nahe gebracht worden. Verschiedene Lehrer und Einflüße haben meinen Weg seitdem begleitet.
 
 [Mein erstes Yogastudio](http://www.pranayoga.at) habe ich in Wien besucht und kann es immer noch sehr empfehlen.
@@ -22,6 +24,6 @@ Falls auch du Jampa Ling unterstützen möchtest, kannst du hier eine [Spende](h
 
 Besonders am Herzen liegt mir das [Projekt Ruanda](https://www.projekt-ruanda-erika-hronicek.at/), da ich dafür auch vor Ort Freiwilligenarbeit geleistet habe.
 
-# Raphael
+# Rafael
 
 Ich habe Kum Nye Yoga in Dzogchen Beara gelernt und meine Meditationspraxis in Jampa Ling vertieft.
