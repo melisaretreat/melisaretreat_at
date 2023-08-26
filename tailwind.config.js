@@ -5,9 +5,6 @@ module.exports = {
         `./src/components/**/*.{js,jsx,ts,tsx}`,
         `./src/layouts/**/*.{js,jsx,ts,tsx}`,
     ],
-    theme: {
-        extend: {},
-    },
     plugins: [
         require("daisyui"),
         require('@tailwindcss/typography')
