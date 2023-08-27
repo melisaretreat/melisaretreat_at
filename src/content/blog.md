@@ -1,8 +1,8 @@
 ---
 title: Blog
 menu:
-  main:
-    weight: 90
+- name: main
+  weight: 1
 ---
 In diesem Blog möchte ich diversen Themen wie
 - Yoga
@@ -11,4 +11,4 @@ In diesem Blog möchte ich diversen Themen wie
 - Nachhaltigkeit
 - Selbermacher
 
-nachgehen und meine Gedanken zu Papier bringen. 
+nachgehen und meine Gedanken zu Papier bringen.

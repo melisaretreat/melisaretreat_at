@@ -8,7 +8,7 @@ Alle grünen oder roten unreifen Paradeiser können verwendet werden. Einfach er
 
 Das erste Mal habe ich diese Version in Irland kennen gelernt, wo es wirklich ganz tolle GärtnerInnen und KöchInnen gibt. Schön, daß wirklich alles an Frucht verarbeitet werden kann.
 
-„Wissen ist, das Paradeiser eine Frucht und kein Gemüse ist. Weisheit ist, Paradeiser trotzdem nicht in einen Obstsalat zu tun.“
+"Wissen ist, das Paradeiser eine Frucht und kein Gemüse ist. Weisheit ist, Paradeiser trotzdem nicht in einen Obstsalat zu tun."
 
 - 1 kg grüne Paradeiser
 - 1 kg Zwiebel (rot oder gelb)

@@ -2,8 +2,8 @@
 title: "Kontakt"
 date: 2021-04-05
 menu:
-  main:
-    weight: 40
+- name: main
+  weight: 0.9
 ---
 
 Melisa Retreat  

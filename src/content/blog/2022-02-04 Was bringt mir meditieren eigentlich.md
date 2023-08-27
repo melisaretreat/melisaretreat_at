@@ -1,6 +1,6 @@
 ---
 title:  Was bringt mir meditieren eigentlich?
-Date: 2022-02-04
+date: 2022-02-04
 
 ---
 Es gibt eine ganz einfache Möglichkeit, zu prüfen, ob das Meditieren etwas bringt. Wenn es einem besser geht, man zufriedener mit sich selbst und anderen ist und vielleicht sogar langfristig glücklich ist, dann kann man das unter anderem auf eine erfolgreiche Meditations Praxis zurückführen. Leider funktioniert das nicht von einmal eine Schnupperstunde mitmachen, sondern wie so vieles was gelernt werden muß, erst nach regelmäßigen üben. Für mich persönlich war relativ schnell klar, daß ist etwas, daß ich gerne mehr erkunden möchte. Mit der Zeit wurde das eine recht spannende Reise ins Ich und Selbst. Den in der Stille verweilen, gibt mir die Möglichkeit, mit mir selbst vertraut zu werden. Zum Beispiel im tibetischen bedeutet das Wort „gom“ nicht direkt meditieren, sondern vertraut werden.
