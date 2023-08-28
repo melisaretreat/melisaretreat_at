@@ -35,7 +35,7 @@ vorhanden eine Yoga oder Gymnastikmatte sowie eine Decke mitnehmen.
 
 # Herbst Auszeit
 
-Yoga und Meditation Workshop
+### Yoga und Meditation Workshop
 
 Sonntag, 22. Oktober 2023  
 10 bis 16 Uhr

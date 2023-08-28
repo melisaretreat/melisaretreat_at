@@ -9,7 +9,7 @@ export default function (props: PageProps): React.ReactNode {
         return <BlogPage/>
 
     const markdown = (props.data as Queries.Query).menuEntry!.parent as Queries.MarkdownRemark;
-    return <InnerHTML as='article' className='prose prose-neutral min-w-full prose-h1:text-center'>{markdown.html!}</InnerHTML>;
+    return <InnerHTML as='article' className='prose prose-neutral min-w-full prose-h1:text-center prose-h3:text-center'>{markdown.html!}</InnerHTML>;
 }
 
 export const pageQuery = graphql`query menuEntry($id: String!){
